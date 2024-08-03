@@ -27,5 +27,5 @@ go.work.sum
 .env
 
 # project specific
-./cover_letter_automator
-./main
+cover_letter_automator
+main
