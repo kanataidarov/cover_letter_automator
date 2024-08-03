@@ -34,8 +34,8 @@ func main() {
 	}
 
 	text := string(content)
-	text = strings.ReplaceAll(text, "RC", *rc)
-	text = strings.ReplaceAll(text, "RP", *rp)
+	text = strings.ReplaceAll(text, rcKey, *rc)
+	text = strings.ReplaceAll(text, rpKey, *rp)
 
 	err = clipboard.WriteAll(text)
 	if err != nil {
